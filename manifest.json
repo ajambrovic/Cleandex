@@ -1,9 +1,9 @@
 {
-  "name": "CHANGE THIS : Extension boilerplate",
+  "name": "Cleandex",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "This extension was created with the awesome extensionizr.com",
-  "homepage_url": "http://extensionizr.com",
+  "description": "This extension was created with the awesome extensionizr.com and https://github.com/keccers/heygirl/",
+  "homepage_url": "https://www.index.hr/najnovije/",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -12,6 +12,7 @@
   "default_locale": "en",
   "background": {
     "scripts": [
+      "src/options_custom/lib/store.js",
       "src/bg/background.js"
     ],
     "persistent": false
@@ -19,17 +20,17 @@
   "options_page": "src/options_custom/index.html",
   "page_action": {
     "default_icon": "icons/icon19.png",
-    "default_title": "page action demo",
+    "default_title": "Cleandex",
     "default_popup": "src/page_action/page_action.html"
   },
   "permissions": [
-    "*index.hr/najnovije/",
-    "*index.hr/najcitanije"
+    "activeTab"
   ],
   "content_scripts": [
     {
       "matches": [
-        "https://www.google.com/*"
+        "https://www.index.hr/najnovije/",
+        "https://www.index.hr/najcitanije/"
       ],
       "js": [
         "src/inject/inject.js"
