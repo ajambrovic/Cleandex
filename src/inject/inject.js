@@ -23,7 +23,7 @@ function hideContentWithKeywords(keywords) {
 	console.log("Ukupno članaka: " + articles.length + ", od toga filtriranih : " + filteredArticlesCount);
 }
 
-chrome.extension.sendMessage({}, function (response) {
+chrome.runtime.sendMessage({}, function (response) {
 	const readyStateCheckInterval = setInterval(function () {
 		if (document.readyState === "interactive" || document.readyState === "complete") {
 			clearInterval(readyStateCheckInterval);
