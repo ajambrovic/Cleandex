@@ -1,0 +1,24 @@
+{
+  "name": "cleandex",
+  "version": "1.0.0",
+  "description": "Google Chrome ekstenzija za filtriranje najnovijih vijesti na Index.hr",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^5.4.0",
+    "jshint": "^2.9.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajambrovic/Cleandex.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajambrovic/Cleandex/issues"
+  },
+  "homepage": "https://github.com/ajambrovic/Cleandex#readme"
+}
