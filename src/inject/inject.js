@@ -1,6 +1,6 @@
 chrome.extension.sendMessage({}, function (response) {
 	const readyStateCheckInterval = setInterval(function () {
-		if (document.readyState === "complete") {
+		if (document.readyState === "interactive") {
 			clearInterval(readyStateCheckInterval);
 
 			const articles = document.querySelectorAll('li.clearfix');
@@ -27,15 +27,18 @@ chrome.extension.sendMessage({}, function (response) {
 				"Ella Dvornik",
 				"Nikolina Ristović",
 				"gole grudi",
-			]
+				"Nina Badrić",
+				"Jelena Rozga",
+				"Nives Celzijus"
+			];
 			// get all article that contain a keyword
 
 			const filter = Array.prototype.filter;
 			const filteredArticles = filter.call(articles, function (article) {
 				const articleTitle = article.querySelector('.title');
 				const articleSummary = article.querySelector('.summary');
-				return keywords.some(s => {
-					return articleTitle.innerText.indexOf(s) > -1 || articleSummary.innerText.indexOf(s) > -1;
+				return keywords.some(keyword => {
+					return articleTitle.innerText.toLowerCase().indexOf(keyword.toLowerCase()) > -1 || articleSummary.innerText.toLowerCase().indexOf(keyword.toLowerCase()) > -1;
 				});
 			});
 			filteredArticles.forEach(filteredArticle => {
