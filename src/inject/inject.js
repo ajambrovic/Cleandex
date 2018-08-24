@@ -1,16 +1,20 @@
-function hideContentWithKeywords(keywords) {
-	const articles = document.querySelectorAll('li.clearfix');
-	// get all article that contain a keyword
-	const filter = Array.prototype.filter;
-	const filteredArticles = filter.call(articles, function (article) {
-		const articleTitle = article.querySelector('.title');
-		const articleSummary = article.querySelector('.summary');
-		return keywords.some(keyword => {
-			return articleTitle.innerText.toLowerCase().indexOf(keyword.toLowerCase()) > -1 || articleSummary.innerText.toLowerCase().indexOf(keyword.toLowerCase()) > -1;
-		});
+function filterArticlesWithKeywords(article, keywords) {
+	const articleTitle = article.querySelector('.title');
+	const articleSummary = article.querySelector('.summary');
+	return keywords.some(keyword => {
+		const articleTitleContainsKeyword = articleTitle.innerText.toLowerCase().indexOf(keyword.toLowerCase()) > -1;
+		const articleSummaryContainsKeyword = articleSummary.innerText.toLowerCase().indexOf(keyword.toLowerCase()) > -1;
+		return articleTitleContainsKeyword || articleSummaryContainsKeyword;
 	});
-	// and hide them
-	filteredArticles.forEach(filteredArticle => {
+}
+
+function hideContentWithKeywords(keywords) {
+	const articles = Array.from(document.querySelectorAll('li.clearfix'));
+	// get all articles that contain a keyword
+	// and remove each one
+	articles.filter(article => {
+		return filterArticlesWithKeywords(article, keywords);
+	}).forEach(filteredArticle => {
 		filteredArticle.style.display = 'none';
 		console.log(filteredArticle.querySelector('.title').innerText);
 		console.log(filteredArticle.querySelector('.summary').innerText);
