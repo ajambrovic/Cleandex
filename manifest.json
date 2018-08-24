@@ -36,5 +36,8 @@
         "src/inject/inject.js"
       ]
     }
+  ],
+  "web_accessible_resources": [
+    "src/keywords.json"
   ]
 }
