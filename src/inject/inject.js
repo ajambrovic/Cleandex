@@ -25,7 +25,7 @@ function hideContentWithKeywords(keywords) {
 
 chrome.extension.sendMessage({}, function (response) {
 	const readyStateCheckInterval = setInterval(function () {
-		if (document.readyState === "interactive") {
+		if (document.readyState === "interactive" || document.readyState === "complete") {
 			clearInterval(readyStateCheckInterval);
 			// load keywords from file
 			const url = chrome.runtime.getURL('src/keywords.json');
