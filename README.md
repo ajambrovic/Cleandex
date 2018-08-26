@@ -19,7 +19,7 @@ Za takve, visoko kalorične, a nimalo nutritivne članke, sada postoji Cleandex 
 ![Kako učitati ekstenziju](https://github.com/ajambrovic/Cleandex/blob/master/docs/images/ucitavanje.png)
 
 
-Potrebno je odabrati direktorij otpakirane ekstenzije - ako pogriješite, ekstenzija se neće prikazati na listi ekstenzija, tako da će biti dosta jasno da li je odabran ispravan direktorij :) 
+Potrebno je odabrati direktorij otpakirane ekstenzije - ako pogriješite, ekstenzija se neće prikazati na listi ekstenzija, tako da će biti dosta jasno da li je odabran ispravan direktorij :grin: 
 
 3. Ako je sve u redu, prikazuje vam se ![Nova ikonica](https://github.com/ajambrovic/Cleandex/blob/master/docs/images/uspjeh.png) i klikom na nju se otvara čisti Index.hr/najnovije - uživajte!
 
