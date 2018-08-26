@@ -1,6 +1,6 @@
 # Cleandex
 
-Google Chrome ekstenzija za filtriranje najnovijih vijesti na Index.hr, prema listi ključnih riječi u keywords.json
+Google Chrome ekstenzija za filtriranje najnovijih vijesti na Index.hr, prema listi ključnih riječi u <b>keywords.json</b>
 
 ## Zašto Cleandex?
 
@@ -59,7 +59,7 @@ Ako misliš da se ovdje nema (za)što plaćati - slažem se, [otvori prijavu](ht
 
 ## Ima li planova za podršku za druge siteove?
 
-Načelno ne, jedini portal koji pratim, a potrebna mu je ovakva ekstenzija je jutarnji.hr, ali nakon analize sam zaključio da nema smisla - ili ga čitaš ili blokiraš, nema s njim sredine :D Ali slobodno [otvori prijavu](https://github.com/ajambrovic/Cleandex/issues) pa tko zna?
+Načelno ne, jedini portal koji pratim, a potrebna mu je ovakva ekstenzija je jutarnji.hr, ali nakon analize sam zaključio da nema smisla - ili ga čitaš ili blokiraš, nema s njim sredine :grin: Ali slobodno [otvori prijavu](https://github.com/ajambrovic/Cleandex/issues) pa tko zna?
 
 ## I, koliko je komplicirano sve ovo bilo za napraviti?
 Ispada - nimalo, za sav posao do sada, uključujući pripremu (članci o pisanju Chrome ekstenzije, raspisivanje taskova i sl.) i prilagodbu da ekstenzija radi i u Firefoxu, je trebalo samo 8 sati, plus sat vremena za ove upute.
