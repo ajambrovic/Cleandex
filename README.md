@@ -1,6 +1,6 @@
 # Cleandex
 
-Ekstenzija za Google Chrome ili Firefox koja filtrira listu najnovijih vijesti na Index.hr, prema listi ključnih riječi u <b>keywords.json</b>
+Ekstenzija za Google Chrome ili Firefox koja filtrira listu najnovijih vijesti na Index.hr, prema [listi ključnih riječi](https://github.com/ajambrovic/Cleandex/blob/master/src/keywords.json)
 
 ## Zašto Cleandex?
 
@@ -49,7 +49,9 @@ I ja, ali nažalost [mobilni browseri](https://stackoverflow.com/questions/61858
 
 ## Kako promijeniti ključne riječi?
 
-U direktoriju u kojoj je ekstenzija se nalazi keywords.json - brisanje bi trebalo biti jasno :smile:, a kod dodavanja treba paziti da format datoteke ostane ispravan - najbolje je dodavati na vrh liste, ključna riječ mora početi sa dvostrukim navodnicima, te završiti sa dvostrukim navodnicima i zarezom - ![Uređivanje ključnih riječi](https://github.com/ajambrovic/Cleandex/blob/master/docs/images/uredjivanje.png) . 
+U direktoriju u kojoj je ekstenzija se nalazi keywords.json - brisanje bi trebalo biti jasno :smile:, a kod dodavanja treba paziti da format datoteke ostane ispravan - najbolje je dodavati na vrh liste, ključna riječ mora početi sa dvostrukim navodnicima, te završiti sa dvostrukim navodnicima i zarezom:
+
+![Uređivanje ključnih riječi](https://github.com/ajambrovic/Cleandex/blob/master/docs/images/uredjivanje.png) . 
 
 Nakon promjene i snimanja datoteke, u pregledniku je potrebno na stranici <b>chrome://extensions</b> odnosno <b>about:debugging</b>, u "kućici" sa detaljima ekstenzije, odabrati "Osvježi"  - ako se pogriješi (o čemu će se prikazati poruka), iz keywords.default.json se mogu kopirati originalne vrijednosti.
 
