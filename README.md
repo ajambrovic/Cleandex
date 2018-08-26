@@ -1,6 +1,6 @@
 # Cleandex
 
-Google Chrome ekstenzija za filtriranje najnovijih vijesti na Index.hr, prema listi ključnih riječi u <b>keywords.json</b>
+Ekstenzija za Google Chrome ili Firefox koja filtrira listu najnovijih vijesti na Index.hr, prema listi ključnih riječi u <b>keywords.json</b>
 
 ## Zašto Cleandex?
 
@@ -29,7 +29,7 @@ Probaj ponovo proći kroz upute ili [otvori prijavu](https://github.com/ajambrov
 
 ## Ne znam da li mogu vjerovati ekstenziji ako ju ne instaliram kroz Chrome Web Store
 
-To što je ekstenzija na Chrome Web Storeu ne znači da joj se može automatski vjerovati :) A nije tamo jer treba platiti $5, što mi nema smisla za nešto što još ne znam da li će itko ikada koristiti.
+To što je ekstenzija na Chrome Web Storeu ne znači da joj se može automatski vjerovati :grin: A nije tamo jer treba platiti $5, što mi nema smisla za nešto što još ne znam da li će itko ikada koristiti.
 
 ## Halo, halo, stani malo - ja sam na Firefoxu, što samnom?
 
@@ -43,23 +43,27 @@ Razlika je u drugom koraku
 
 Načelno, ne bi trebalo biti problema/posla oko ovog, specifično - provjerim pa ako stignem dok sam još na godišnjem - napravim.
   
-## Super deda što koristiš desktop browser, ali ja koristim mobilne
+## Super deda što koristiš desktop browser, ali ja koristim mobilni
 
 I ja, ali nažalost [mobilni browseri](https://stackoverflow.com/questions/6185882/) [ne podržavaju extenzije]( https://stackoverflow.com/questions/15786728/)
 
 ## Kako promijeniti ključne riječi?
 
-U direktoriju u kojoj je ekstenzija se nalazi keywords.json - brisanje bi trebalo biti jasno :) a kod dodavanja treba paziti da format datoteke ostane ispravan - najbolje je dodavati na vrh liste, ključna riječ mora početi sa <i>"</i> a završiti sa <i>",</i>. Nakon promjene i snimanja datoteke, u pregledniku je potrebno na stranici chrome://extensions odnosno about:debugging, u "kućici" sa detaljima ekstenzije, odabrati "Osvježi"  - ako se pogriješi (o čemu će iskočiti poruka nakon osvježavanja), iz keywords.default.json se mogu kopirati originalne vrijednosti.
+U direktoriju u kojoj je ekstenzija se nalazi keywords.json - brisanje bi trebalo biti jasno :smile:, a kod dodavanja treba paziti da format datoteke ostane ispravan - najbolje je dodavati na vrh liste, ključna riječ mora početi sa dvostrukim navodnicima, te završiti sa dvostrukim navodnicima i zarezom - ![Uređivanje ključnih riječi](https://github.com/ajambrovic/Cleandex/blob/master/docs/images/uredjivanje.png) . 
+
+Nakon promjene i snimanja datoteke, u pregledniku je potrebno na stranici <b>chrome://extensions</b> odnosno <b>about:debugging</b>, u "kućici" sa detaljima ekstenzije, odabrati "Osvježi"  - ako se pogriješi (o čemu će se prikazati poruka), iz keywords.default.json se mogu kopirati originalne vrijednosti.
+
+Kod usporedbe s ključnim riječima nisu bitna velika i mala slova, u datoteci su onako kako sam ih kopirao s Indexa, a razmaci su bitni, dakle sama usporedba je jednostavna - traži se točno podudaranje ključne riječi u tekstu (zato je npr. jedan od pojmova <b>Severin</b>, bez <b>a</b> na kraju, tako da "pokrijemo" deklinaciju"), pa zasad nećemo dobiti optimalno čist tekst (npr. ako se u uvodu spominje samo Lana, ne možemo biti sigurni da se radi o Lani Jurčević, a ako se spominje samo Jurčević, onda ne možemo biti sigurni da li se radi o Lani ili Kruni). Postoje načini kako to zaobići, ali pitanje je da li se taj trud isplati - ako misliš da da, vidi iduću točku.
 
 ## Super je ovo sve, ja bi da još ima...
 
-Najviše šanse za dodavanje dodatne/izmijenjene funkcionalnosti imaš ako sam to napraviš i pošalješ pull request.
-Ako ti nije jasno što sam napisao u prethodnoj rečenici, najviše šanse imaš ako se dogovorimo za plaćeni posao.
-Ako misliš da se ovdje nema (za)što plaćati - slažem se, [otvori prijavu](https://github.com/ajambrovic/Cleandex/issues) i nadaj se da mi se ideja sviđa.
+1. Najviše šanse za dodavanje dodatne/izmijenjene funkcionalnosti imaš ako sam to napraviš i pošalješ pull request.
+2. Ako ti nije jasno što sam napisao u prethodnoj rečenici, najviše šanse imaš ako se dogovorimo za plaćeni posao.
+3. Ako misliš da se ovdje nema (za)što plaćati - slažem se, [otvori prijavu](https://github.com/ajambrovic/Cleandex/issues) i nadaj se da mi se ideja sviđa.
 
 ## Ima li planova za podršku za druge siteove?
 
-Načelno ne, jedini portal koji pratim, a potrebna mu je ovakva ekstenzija je jutarnji.hr, ali nakon analize sam zaključio da nema smisla - ili ga čitaš ili blokiraš, nema s njim sredine :grin: Ali slobodno [otvori prijavu](https://github.com/ajambrovic/Cleandex/issues) pa tko zna?
+Načelno ne, jedini portal koji pratim, a potrebna mu je ovakva ekstenzija, je https://www.jutarnji.hr/, ali nakon analize sam zaključio da nema smisla - ili ga čitaš ili blokiraš, nema s njim sredine :grin: Ali slobodno [otvori prijavu](https://github.com/ajambrovic/Cleandex/issues) pa tko zna?
 
 ## I, koliko je komplicirano sve ovo bilo za napraviti?
-Ispada - nimalo, za sav posao do sada, uključujući pripremu (članci o pisanju Chrome ekstenzije, raspisivanje taskova i sl.) i prilagodbu da ekstenzija radi i u Firefoxu, je trebalo samo 8 sati, plus sat vremena za ove upute.
+Ispada - nimalo, za sav posao do sada, uključujući pripremu (članci o pisanju Chrome ekstenzije, raspisivanje taskova i sl.) i prilagodbu da ekstenzija radi i u Firefoxu, je trebalo samo 8 sati, plus 2 sata za ove upute.
