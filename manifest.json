@@ -19,7 +19,8 @@
     "persistent": false
   },
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "storage"
   ],
   "content_scripts": [
     {
@@ -33,5 +34,6 @@
   ],
   "web_accessible_resources": [
     "src/keywords.json"
-  ]
+  ],
+  "options_page": "src/options/options.html"
 }
