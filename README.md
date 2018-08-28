@@ -67,8 +67,7 @@ Kod usporedbe s ključnim riječima nisu bitna velika i mala slova, u datoteci s
 ## Super je ovo sve, ja bi da još ima...
 
 1. Najviše šanse za dodavanje dodatne/izmijenjene funkcionalnosti imaš ako sam to napraviš i pošalješ pull request.
-2. Ako ti nije jasno što sam napisao u prethodnoj rečenici, najviše šanse imaš ako se dogovorimo za plaćeni posao.
-3. Ako misliš da se ovdje nema (za)što plaćati - slažem se, [otvori prijavu](https://github.com/ajambrovic/Cleandex/issues) i nadaj se da mi se ideja sviđa.
+2. Alternativno, [otvori prijavu](https://github.com/ajambrovic/Cleandex/issues) i drži fige se da mi se ideja sviđa. :grin:
 
 ## Ima li planova za podršku za druge siteove?
 
