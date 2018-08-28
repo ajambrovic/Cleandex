@@ -1,6 +1,6 @@
 # Cleandex
 
-Ekstenzija za Google Chrome ili Firefox koja filtrira listu najnovijih vijesti na Index.hr, prema [listi ključnih riječi](https://github.com/ajambrovic/Cleandex/blob/master/src/keywords.json)
+Ekstenzija za Google Chrome, Firefox i Operu, koja filtrira listu najnovijih vijesti na Index.hr, prema [listi ključnih riječi](https://github.com/ajambrovic/Cleandex/blob/master/src/keywords.json)
 
 ## Zašto Cleandex?
 
@@ -8,7 +8,7 @@ Zato što na Index.hr postoje članci koji su informativni, zanimljivi, ili bare
 
 Za takve, visoko kalorične, a nimalo nutritivne članke, sada postoji Cleandex (a za porn, tko ga ne zna naći, njemu on ni ne treba)! 
 
-## Kako instalirati u Chromeu?
+## Kako instalirati u Chromeu/Operi?
 
 1. Prvo je potrebno skinuti ekstenziju kao zip file:
 
@@ -41,9 +41,14 @@ Nema problema, sve radi i u Firefoxu, razlika je samo u drugom koraku:
   2. Gumb koji se kline je "Učitaj privremeni dodatak"
   3. Potrebno je odabrati bilokoju <b>datoteku</b> unutar direktorija (npr. manifest.json)
   
-## Super su Chrome i Firefox, ali koristim Operu/IE/Safari
+## Super - ja koristim Safari, što samnom?
 
-Načelno, ne bi trebalo biti problema/posla oko ovog, specifično - provjerim pa ako stignem dok sam još na godišnjem - napravim.
+Nažalost, Apple želi uzeti $99 godišnje, neovisno da li se želi objaviti ekstenzija ili npr. aplikacija, tako da potpore za Safari neće biti do daljnjega
+
+## Ne znam koji su ovo preglednici koje si spomenuo, ja koristim IE/Edge?
+
+S ovim ne bi trebalo biti problema, ali ne mogu provjeriti dok se ne dokopam računala s Windowsima (jer Edge nije podržan na MacOSu koji koristim) - stay tuned.
+
   
 ## Super deda što koristiš desktop browser, ali ja koristim mobilni
 
