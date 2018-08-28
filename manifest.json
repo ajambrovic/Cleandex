@@ -24,7 +24,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.index.hr/najnovije/"
+        "https://www.index.hr/*"
       ],
       "js": [
         "src/inject/inject.js"
