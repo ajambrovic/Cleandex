@@ -10,18 +10,20 @@ Za takve, visoko kalorične, a nimalo nutritivne članke, sada postoji Cleandex 
 
 ## Kako instalirati u Chromeu?
 
-1. Prvo je potrebno skinuti ekstenziju kao zip file koji onda otpakiramo
+1. Prvo je potrebno skinuti ekstenziju kao zip file:
 
 ![Kako dohvatiti ekstenziju](https://github.com/ajambrovic/Cleandex/blob/master/docs/images/dohvat.png)
 
-2. Ekstenziju instaliramo tako da u adresnu traku upišemo <b>chrome://extensions</b>, omogućimo <b>developer mode</b>, te <b>učitamo otpakiranu ekstenziju</b>
+2. Zip file je potrebno otpakirati da bi se ekstenzija mogla učitati - ekstenziji/browseru nije bitno gdje će biti otpakirana
+
+3. Ekstenziju instaliramo tako da u adresnu traku upišemo <b>chrome://extensions</b>, omogućimo <b>developer mode</b>, te <b>učitamo otpakiranu ekstenziju</b>
 
 ![Kako učitati ekstenziju](https://github.com/ajambrovic/Cleandex/blob/master/docs/images/ucitavanje.png)
 
 
 Potrebno je odabrati direktorij otpakirane ekstenzije - ako pogriješite, ekstenzija se neće prikazati na listi ekstenzija, tako da će biti dosta jasno da li je odabran ispravan direktorij :grin: 
 
-3. Ako je sve u redu, prikazuje vam se ![Nova ikonica](https://github.com/ajambrovic/Cleandex/blob/master/docs/images/uspjeh.png) i klikom na nju se otvara čisti Index.hr/najnovije - uživajte!
+4. Ako je sve u redu, prikazuje vam se ![Nova ikonica](https://github.com/ajambrovic/Cleandex/blob/master/docs/images/uspjeh.png) i klikom na nju se otvara čisti Index.hr/najnovije - uživajte!
 
 ## Meni nije sve u redu :(
 
@@ -33,7 +35,7 @@ To što je ekstenzija na Chrome Web Storeu ne znači da joj se može automatski 
 
 ## Halo, halo, stani malo - ja sam na Firefoxu, što samnom?
 
-Razlika je u drugom koraku
+Nema problema, sve radi i u Firefoxu, razlika je samo u drugom koraku:
 
   1. U alatnu traku se upisuje about:debugging 
   2. Gumb koji se kline je "Učitaj privremeni dodatak"
@@ -55,7 +57,7 @@ U direktoriju u kojoj je ekstenzija se nalazi keywords.json - brisanje bi trebal
 
 Nakon promjene i snimanja datoteke, u pregledniku je potrebno na stranici <b>chrome://extensions</b> odnosno <b>about:debugging</b>, u "kućici" sa detaljima ekstenzije, odabrati "Osvježi"  - ako se pogriješi (o čemu će se prikazati poruka), iz keywords.default.json se mogu kopirati originalne vrijednosti.
 
-Kod usporedbe s ključnim riječima nisu bitna velika i mala slova, u datoteci su onako kako sam ih kopirao s Indexa, a razmaci su bitni, dakle sama usporedba je jednostavna - traži se točno podudaranje ključne riječi u tekstu (zato je npr. jedan od pojmova <b>Severin</b>, bez <b>a</b> na kraju, tako da "pokrijemo" deklinaciju"), pa zasad nećemo dobiti optimalno čist tekst (npr. ako se u uvodu spominje samo Lana, ne možemo biti sigurni da se radi o Lani Jurčević, a ako se spominje samo Jurčević, onda ne možemo biti sigurni da li se radi o Lani ili Kruni). Postoje načini kako to zaobići, ali pitanje je da li se taj trud isplati - ako misliš da da, vidi iduću točku.
+Kod usporedbe s ključnim riječima nisu bitna velika i mala slova, u datoteci su onako kako sam ih kopirao s Indexa, a razmaci su bitni, dakle sama usporedba je jednostavna - traži se točno podudaranje ključne riječi u tekstu (zato je npr. jedan od pojmova <b>Severin*</b> (Severina je objavila, Severinin suprug i slično), bez <b>a</b> na kraju, tako da "pokrijemo" deklinaciju"), pa zasad nećemo dobiti optimalno čist tekst (npr. ako se u uvodu spominje samo Lana, ne možemo biti sigurni da se radi o Lani Jurčević, a ako se spominje samo Jurčević, onda ne možemo biti sigurni da li se radi o Lani ili Kruni). Postoje načini kako to zaobići, ali pitanje je da li se taj trud isplati - ako misliš da da, vidi iduću točku.
 
 ## Super je ovo sve, ja bi da još ima...
 
