@@ -1,6 +1,6 @@
 {
   "name": "cleandex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Google Chrome ekstenzija za filtriranje najnovijih vijesti na Index.hr",
   "main": "index.js",
   "dependencies": {
