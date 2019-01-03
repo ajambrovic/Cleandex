@@ -1,8 +1,8 @@
 {
   "name": "Cleandex",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "manifest_version": 2,
-  "description": "This extension was created with the awesome extensionizr.com and https://github.com/keccers/heygirl/",
+  "description": "This extension was created with the awesome extensionizr.com and inspired by https://github.com/keccers/heygirl/",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -24,7 +24,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.index.hr/*"
+        "https://www.index.hr/najnovije*"
       ],
       "js": [
         "src/inject/inject.js"
