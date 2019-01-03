@@ -49,7 +49,7 @@ Kod usporedbe s ključnim riječima nisu bitna velika i mala slova, u datoteci s
 Načelno ne, jedini portal koji pratim, a potrebna mu je ovakva ekstenzija, je https://www.jutarnji.hr/, ali nakon analize sam zaključio da nema smisla - ili ga čitaš ili blokiraš, nema s njim sredine :grin: Ali slobodno [otvori prijavu](https://github.com/ajambrovic/Cleandex/issues) pa tko zna?
 
 ## I, koliko je komplicirano sve ovo bilo za napraviti?
-Ispada - nimalo, za sav posao do sada, uključujući pripremu (članci o pisanju Chrome ekstenzije, raspisivanje taskova i sl.) i prilagodbu da ekstenzija radi i u Firefoxu, je trebalo samo 8 sati, plus 2 sata za ove upute.
+Ispada - nimalo, za sav posao do sada, uključujući pripremu (članci o pisanju Chrome ekstenzije, raspisivanje taskova i sl.), prilagodbu da ekstenzija radi i u Firefoxu, i dodatne stvari poput prijave na web storeove, je ukupno trebalo 20 sati.
 
 # Development
 
