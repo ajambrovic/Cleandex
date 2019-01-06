@@ -22,7 +22,7 @@ Nažalost, Apple želi uzeti $99 godišnje, neovisno da li se želi objaviti eks
 
 ## Ne znam koji su ovo preglednici koje si spomenuo, ja koristim IE/Edge?
 
-S ovim ne bi trebalo biti problema, ali ne mogu provjeriti dok se ne dokopam računala s Windowsima (jer Edge nije podržan na MacOSu koji koristim) - stay tuned.
+S ovim ne bi trebalo biti problema, ali kako IE nema svoj store (barem koliko sam gledao), plus Edge uskoro prelazi na Chromium, onda se ekstenzija može učitati kao i za developere (vidi niže), ali supporta kroz store neće biti.
 
   
 ## Super deda što koristiš desktop browser, ali ja koristim mobilni
